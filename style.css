@@ -219,3 +219,19 @@ a {
     margin: 12px 0;
   }
 }
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  filter: grayscale(100%);
+  transition: 0.3s ease;
+}
+
+.profile-image:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
