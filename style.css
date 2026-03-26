@@ -235,3 +235,31 @@ a {
   filter: grayscale(0%);
   transform: scale(1.05);
 }
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .profile-image {
+    width: 25vw;
+    height: 25vw;
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+@media (max-width: 540px) {
+  .profile-image {
+    width: 22vw;
+    height: 22vw;
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
